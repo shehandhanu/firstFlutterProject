@@ -40,7 +40,7 @@ class SecondScreen extends StatelessWidget {
                     ),
                     onPressed: _controller.clear,
                   ),
-                  hintText: 'Your Name Plez........!',
+                  hintText: 'Your Name Plz........!',
                   prefixIcon: Icon(
                     Icons.search,
                     color: Colors.white,
@@ -55,7 +55,7 @@ class SecondScreen extends StatelessWidget {
         onPressed: () {
           Navigator.of(context).pushNamed('/third');
         },
-        child: Icon(Icons.arrow_left),
+        child: Icon(Icons.arrow_right),
         backgroundColor: Colors.orange,
       ),
     );
