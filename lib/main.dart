@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:my_app/screens/home.dart';
 import 'package:my_app/screens/second.dart';
+import 'package:my_app/screens/third.dart';
 
 void main() => runApp(
       DevicePreview(
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         '/second': (context) => SecondScreen(),
         '/home': (context) => HomeScreen(),
+        '/third': (context) => ThirdScreen(),
       },
     );
   }
